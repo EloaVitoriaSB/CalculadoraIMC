@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Science+Gothic:wght@100..900&display=swap');
+
+
+:root{
+    --color-blue: #224657;
+    --color-dark-blue:#04202c;
+}
+
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--color-blue);
+}
+
+.container{
+    max-width: 640px;
+    margin: 0 auto;
+    background: #FFF;
+    padding: 20px;
+    font-family: 'Cinzel';
+    font-size: 1.5em;
+    border-radius: 10px;
+
+}
+
+.container h1{
+    justify-self: center;
+}
+
+.informacoes{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-self:center;
+
+
+}
+
+.imc{
+    margin-right:140px ;
+}
+
+.imc h2{
+    margin-left: 40px;
+}
+
+form, input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--color-blue);
+}
+
+form button{
+    border: none;
+    background: var(--color-blue);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin: 30px auto;
+}
+
+form button:hover{
+    background: var(--color-dark-blue);
+}
+
+form input, form button{
+    border-radius: 10px;
+}
+
+.paragrafo-resultado, .bad{
+    background: #6bd8c6;
+    padding: 10px 20px;
+}
+
+.bad{
+    background: #d86b6b
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+footer a{
+    color: #7089a7;
+    text-decoration: none;
+}
+
+footer p{
+    color: #d7dbe4;
+    margin: 0;
+    padding: 2rem;
+
+}
+
